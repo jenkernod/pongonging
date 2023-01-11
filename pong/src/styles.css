@@ -13,17 +13,18 @@ body {
   margin: 10px;
   border: 5px solid black;
   left: 0;
+  background-image: url("https://media2.giphy.com/media/rzeWnbH8Uc5Y4/giphy.gif?cid=ecf05e47kkcvibs15tegczudxeym9xqeqtzzczigxtgscewk&rid=giphy.gif&ct=g");
   position: absolute;
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: violet;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: blue;
+  background-color: indigo;
   right: 10px;
 }
 
@@ -74,7 +75,7 @@ body {
 .ball {
   width: 20px;
   height: 20px;
-  background-color: red;
+  background-color: white;
   border-radius: 10px;
   position: absolute;
   left: 50px;
@@ -83,6 +84,7 @@ body {
 
 .score {
   position: absolute;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   top: 0;
 }
