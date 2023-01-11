@@ -48,9 +48,11 @@ soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("score-tap.mp3");
 soundArray.push(paddleSound);
+ambientSound.player.volume.value = -40; //turn down volume
 
 export var scoreSound = new soundFile("phaserDown2.mp3");
 soundArray.push(scoreSound);
+ambientSound.player.volume.value = -40; //turn down volume
 
 export var ambientSound = new soundFile("ocean-waves.mp3");
 soundArray.push(ambientSound);
@@ -65,4 +67,4 @@ adventureMusic.player.volume.value = -16;
 export var villageMusic = new soundFile("peaceful-ambience.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -0;
+villageMusic.player.volume.value = -16;
